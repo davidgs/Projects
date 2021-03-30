@@ -7,4 +7,6 @@ Camunda Platform BPMN is an industry-leading platform for deploying Business Bro
 
 After all, the IoT is not just about collecting vast amounts of data, but it's also about taking targeted, business-critical *actions* based on that data. And if you want to take actions to further your business objectives, you should have clearly defined business processes to do that.
 
-So I'm going to talk about an on-going project I'm working on of integrating some IoT sensors and actuators to build a proof-of-concept for Greenhouse Automation. I'll be talking about integrating data from sensors both outside and inside the greenhouse with objectives for the greenhouse so that various internal environmental controls can be automated to achieve maximum efficiency. 
+So I'm going to talk about an on-going project I'm working on of integrating some IoT sensors and actuators to build a proof-of-concept for Greenhouse Automation. I'll be talking about integrating data from sensors both outside and inside the greenhouse with objectives for the greenhouse so that various internal environmental controls can be automated to achieve maximum efficiency.
+
+![Headshot](images/Headshot-Square.png)
