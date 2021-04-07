@@ -13,7 +13,7 @@ It hits on many important aspects of what we do including community/customer fee
 ## What does success look like?
 Success, in this instance, doesn't mean just completing the project. Actually completing this project is not the hurdle. The real measure of success will be how much 'attention' and traction in the wider IoT community we can garner through this project.
 
-Some of the metrics to collect and measure would be:
+### Some of the metrics to collect and measure would be:
 
 - Number of people who read the blog post(s) about this project
 - How many of those readers do we 'convert' to click-through to the Camunda website?
@@ -23,6 +23,12 @@ Some of the metrics to collect and measure would be:
 The OKRs around metrics I plan to use are:
 - 20,000 post-reads on the blog(s) posted about the project
 - 1% conversion to Camunda.com click-through
+
+### How we will collect those Metrics
+- When publishing blogposts to DZone, use `?ref=davidgsiot` to distinguish traffic referrals direct to Camunda from David's articles
+- Produce "deliverables" to report internally on a fairly regular basis (could be reports, lunch&learns, hackathon projects, blogposts, etc.)
+- Consider creating Libby boxes for brainstorming ideas on how to bring awareness to IoT community
+- Based on Libby boxes (?) create short proposal about which segments of the IoT space David would like to target (who, what, why, where, how)
 
 ## Project Idea
 
@@ -44,10 +50,52 @@ Greenhouse management is a subset of the larger building automation market segme
 
 [2] [Smart Greenhouse Market Size And Forecast](https://www.verifiedmarketresearch.com/product/global-smart-greenhouse-market-size-and-forecast-to-2025/)
 
-This makes this an attractive target for a PoC. 
+This makes this an attractive target for a PoC.
 
 ## Budget proposal for hardware
-*coming soon*
+
+This is an IoT Project, so it will obviously require some IoT Hardware. This is also a Greenhouse-automation project, so it will also require at least _some_ sort of 'greenhouse' to automate.
+
+**Sensors for outdoors:**
+
+| Sensor | Price | quantity | total |
+|--------|-------|----------|-------|
+| [Weather Station](https://www.sparkfun.com/products/15901) | $64.95 | 1 | $64.95 |
+| [Lightning Detector](https://www.sparkfun.com/products/15441) | $26.50 | 1 | $26.50 |
+| [ESP32](https://www.sparkfun.com/products/17381) | $20.95 | 1 | $20.95 |
+| [RJ11 Breakout](https://www.sparkfun.com/products/14021)  | $1.95 | 2 | $3.90 |
+| [RJ11 Jacks](https://www.sparkfun.com/products/132) | $1.25 | 4 | $5.00 |
+| [LiPo Battery](https://www.sparkfun.com/products/13856) | $26.95 | 1 | $26.95 |
+| [Solar Charger](https://www.sparkfun.com/products/12885) | $26.95 | 1 | $26.95 |
+| [Solar Panel](https://www.sparkfun.com/products/13783) | $59.00 | 1 | $59.00 |
+| [Soil Moisture](https://www.sparkfun.com/products/13637) | $6.95 | 1 | $6.95 |
+| [CO<sub>2</sub> Sensor](https://www.sparkfun.com/products/15112) | $59.95 | 1 | $59.95 |
+| **Sub Total** | | | $301.10 |
+
+**Greenhouse Sensors:**
+| Sensor | Price | quantity | total |
+|--------|-------|----------|-------|
+| [Soil Moisture](https://www.sparkfun.com/products/13637) | $6.95 | 2 | $6.95 | $13.90 |
+| [Stepper Motor](https://www.sparkfun.com/products/13656) | $30.95 | 1 | $30.95 |
+| [Stepper Driver](https://www.sparkfun.com/products/16836) | $19.95 | 1 | $19.95 |
+| [ESP32](https://www.sparkfun.com/products/17381) | $20.95 | 4 | $20.95 | $83.81 |
+| [CO<sub>2</sub> Sensor](https://www.sparkfun.com/products/15112) | $59.95 | 1 | $59.95 |
+| [Fan](https://www.sparkfun.com/products/15708) | $11.95 | 1 | $11.95 |
+| **Sub Total** | | | **$220.50** |
+
+**Grand Total:** **$521.60**
+
+**Greenhouse**
+This one is a bit of a wild-card. I started looking at what might work. I want the greenhouse to be able to have sensors in it (they are small), and at least one 'actuator' to open a window or something, and probably a fan too. We're talking realistic here.
+| Greenhouse Type | Cost |
+|-----------------|------|
+| [Outdoor](https://www.worldofgreenhouses.com/products/hybrid-greenhouse-series) | $650 |
+| [Indoor](https://www.hpotter.com/buy-terrariums/h-potter-terrarium-classic-wardian-case-for-plants) | $140 |
+| [Indoor - small](https://www.amazon.com/Purzest-Terrarium-Geometric-Tabletop-Succulent) | $36.00 |
+
+Of course, for a truly realistic/accurate PoC, the outdoor greenhouse is the best choice. I'm not sure what I'd _do_ with an outdoor greenhouse after this is all done, but ¯\_(ツ)_/¯.
+
+The larger desktop version at least has an opening that I could motorize to give some realism.
 
 ## Documentation
 A series of Blog posts (at least 2 - 3) covering the various stages of the development of the PoC
