@@ -4,20 +4,23 @@
 Looking to bring Camunda to the attention of the IoT Community by completing a larger IoT/Camunda Proof of Concept Project. This would entail an IoT Build, using Camunda Platform, documentation, a blog post, and promotion to the wider IoT Community.
 
 ## Why pursue this project
-In many my initial discussions when joining the company, IoT was mentioned quite frequently as an important, but as-yet untapped market for Camunda Platform. In order to get Camunda 'noticed' in this market, which is vast, we need to start doing things that the community would possibly notice, and then track the engagements from those thing.
+In many of my initial discussions when joining the company, IoT was mentioned quite frequently as an important, but as-yet untapped market for Camunda Platform. In order to get Camunda 'noticed' in this market, which is vast, we need to start doing things that the community would possibly notice, and then track the engagements from those things.
 
 This can give us important insights into whether or not the IoT market is interested in using BPMN to orchestrate tasks based on IoT data as well as be an introduction of Camunda to the IoT community.
 
 It hits on many important aspects of what we do including community/customer feedback, increasing awareness, and engagement.
+In general, the overall IoT Market is doubling in size roughly every 2 years. This rapid and sustained growth makes it an attractive target for Camunda as we look for areas of expansion.
+
+![Graph of increasing IoT Adoption](images/Screen%20Shot%202021-04-08%20at%208.49.51%20AM.png)
+[[1] Forecast end-user spending on IoT solutions worldwide from 2017 to 2025](https://www.statista.com/statistics/976313/global-iot-market-size/)
 
 ## What does success look like?
 Success, in this instance, doesn't mean just completing the project. Actually completing this project is not the hurdle. The real measure of success will be how much 'attention' and traction in the wider IoT community we can garner through this project.
 
-### Some of the metrics to collect and measure would be:
-
+Some of the metrics to collect and measure would be:
 - Number of people who read the blog post(s) about this project
 - How many of those readers do we 'convert' to click-through to the Camunda website?
-- Number of tweets/retweets of the project and it's parts
+- Number of tweets/retweets of the project and its parts
 - Questions asked about the project
 
 The OKRs around metrics I plan to use are:
@@ -25,10 +28,10 @@ The OKRs around metrics I plan to use are:
 - 1% conversion to Camunda.com click-through
 
 ### How we will collect those Metrics
-- When publishing blogposts to DZone, use `?ref=davidgsiot` to distinguish traffic referrals direct to Camunda from David's articles
-- Produce "deliverables" to report internally on a fairly regular basis (could be reports, lunch&learns, hackathon projects, blogposts, etc.)
-- Consider creating Libby boxes for brainstorming ideas on how to bring awareness to IoT community
-- Based on Libby boxes (?) create short proposal about which segments of the IoT space David would like to target (who, what, why, where, how)
+- When publishing blog posts to DZone, use `?ref=davidgsiot` to distinguish traffic referrals direct to Camunda from David's articles
+- Produce "deliverables" to report internally on a fairly regular basis (could be reports, lunch & learns, hackathon projects, blog posts, etc.)
+
+It’s important to note that, while we generally don’t track such `vanity metrics` as hit-counts, etc. this is really a test-balloon project to see if, and how much, relative interest there is around an integration between Camunda Platform BPMN and the IoT community. Since we are just gauging initial interest, simple, easy to track metrics make the most sense.
 
 ## Project Idea
 
@@ -96,6 +99,8 @@ This one is a bit of a wild-card. I started looking at what might work. I want t
 Of course, for a truly realistic/accurate PoC, the outdoor greenhouse is the best choice. I'm not sure what I'd _do_ with an outdoor greenhouse after this is all done, but ¯\_(ツ)_/¯.
 
 The larger desktop version at least has an opening that I could motorize to give some realism.
+
+**Note:** @mary_grace and I have decided to start with the smaller, more portable one (given upcoming travel, etc.) and see how things go. We can move to a larger greenhouse if the smaller one proves an unworkable option.
 
 ## Documentation
 A series of Blog posts (at least 2 - 3) covering the various stages of the development of the PoC
