@@ -11,7 +11,8 @@ This can give us important insights into whether or not the IoT market is intere
 It hits on many important aspects of what we do including community/customer feedback, increasing awareness, and engagement.
 In general, the overall IoT Market is doubling in size roughly every 2 years. This rapid and sustained growth makes it an attractive target for Camunda as we look for areas of expansion.
 
-![Graph of increasing IoT Adoption](images/Screen%20Shot%202021-04-08%20at%208.49.51%20AM.png)
+![Graph of increasing IoT Adoption](/Q2FY21/images/iotGrowthChart.png)
+
 [[1] Forecast end-user spending on IoT solutions worldwide from 2017 to 2025](https://www.statista.com/statistics/976313/global-iot-market-size/)
 
 ## What does success look like?
