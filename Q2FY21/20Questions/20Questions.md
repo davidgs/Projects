@@ -100,12 +100,6 @@ I definitely recommend this last solution as it's a cleaner, more robust solutio
 
 ## Question 4
 
-**Strengths of Camunda vs. Flowable**
-
-The answer to this question is basically a summary of [this blog post](https://camunda.com/blog/2016/10/camunda-engine-since-activiti-fork/) from about 5 years ago.
-
-## Question 5
-
 **Single sign-on in Camunda**
 
 This is a very popular topic, and one that has about as many answers as you can dream up. Much of this depends on what you plan to use to facilitate your Single Sign On (SSO) capabilities. We can go through a couple of examples here.
@@ -122,7 +116,7 @@ Likewise there is a Camunda [JBoss SSO](https://github.com/camunda/camunda-sso-s
 
 With all these examples, combined with the [documentation](https://docs.camunda.org/manual/latest/reference/rest/overview/authentication/) you should be well on your way to implementing a custom SSO solution.
 
-## Question 6
+## Question 5
 
 **An Example of completing a user task via the REST API**
 
