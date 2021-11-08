@@ -2,6 +2,8 @@
 
 **Single sign-on in Camunda**
 
+### Estimated reading time: 6 minutes, 56 seconds
+
 ### The problem:
 
 You've deployed Camunda and have been successfully running processes there for a while. It's becoming more and more popular, and managing the users via the web Admin app is becoming more and more cumbersome and time consuming. Single-sign-on (SSO) or an external authentication and authorization server seems like a great solution, so how do you make that work?
