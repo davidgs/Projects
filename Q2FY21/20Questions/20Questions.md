@@ -288,5 +288,9 @@ These models can also provide you with pre-built parts with which to implement *
 
 With Camunda, you can have the flexibility of built-in reporting tools that you can use to generate on-demand or other reports as needed. All without writing any additional code. And every line of code you have to write yourself is a potential business liability. It creates the potential for costly bugs, it creates technical debt that must be serviced regularly, and it creates further dependencies that may break in the future.
 
-All of these are things you want to avoid if at all possible. 
+All of these are things you want to avoid if at all possible.
+
+## Question 7
+
+**How do I send & receive JSON request while calling a external REST from within the BPMN**
 
