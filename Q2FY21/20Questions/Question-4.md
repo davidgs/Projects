@@ -40,11 +40,11 @@ By default, Keycloak starts up listening to `http://127.0.0.1:8080/auth`; point 
 
 You can then use that new user to log in to the Keycloak Administration page. The first thing you will need to do is create a new realm. You could use the `master` realm, but this is generally considered bad practice.
 
-![Create a new Keycloak Realm](images/create-realm.png)
+![Name your new realm](images/add-realm.png)
 
 We are going to call our realm `camunda-id`.
 
-![Name your new realm](images/add-realm.png)
+![Create a new Keycloak Realm](images/create-realm.png)
 
 Now that you have a new realm, you'll need to create a new client in that realm for the actual authentication to happen. There are a few settings that you *have* to get right or Keycloak will not function correctly. The first is that this server will be using the `confidential` access type.
 
@@ -82,7 +82,7 @@ Finally, create a user or two who can log in to Camunda Platform. This setup wil
 
 Now that we have a functioning instance of Keycloak, it's time to get Camunda Platform Run going so we can use the Keycloak service to authenticate.
 
-We use [Camunda Platform Run v7.16.0](https://camunda.com/download/) for this exercise.
+We use [Camunda Platform Run](https://camunda.com/download/) for this exercise.
 
 Start by editing the `default.yml` file in the `configuration` directory.
 
